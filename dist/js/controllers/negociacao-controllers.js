@@ -1,4 +1,4 @@
-export class NegociacaoControllers {
+export class NegociacaoController {
     constructor() {
         this.inputData = document.querySelector("#data");
         this.inputQuantidade = document.querySelector("#quantidade");
@@ -6,7 +6,7 @@ export class NegociacaoControllers {
     }
     adiciona() {
         console.log(this.inputData);
-        console.log(this.inputData);
-        console.log(this.inputData);
+        console.log(this.inputQuantidade);
+        console.log(this.inputValor);
     }
 }

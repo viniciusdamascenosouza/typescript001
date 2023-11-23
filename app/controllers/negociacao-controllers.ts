@@ -1,4 +1,4 @@
-export class NegociacaoControllers {
+export class NegociacaoController {
     private inputData;
     private inputQuantidade;
     private inputValor;
@@ -11,7 +11,7 @@ export class NegociacaoControllers {
 
     adiciona() {
         console.log(this.inputData);
-        console.log(this.inputData);
-        console.log(this.inputData);
+        console.log(this.inputQuantidade);
+        console.log(this.inputValor);
     }
 }

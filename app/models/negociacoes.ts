@@ -1,3 +1,5 @@
+import { negociacaoExterna } from "./negociacao";
+
 export class negociacoeS {
-    private negociacoes: any = [];
+    private negociacoes: Array<negociacaoExterna> = [];
 }

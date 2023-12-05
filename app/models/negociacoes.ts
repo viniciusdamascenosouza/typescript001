@@ -1,5 +1,19 @@
-import { negociacaoExterna } from "./negociacao";
+import { Negociacao } from "./negociacao";
 
-export class negociacoeS {
-    private negociacoes: Array<negociacaoExterna> = [];
+export class Negociacoes {
+    private negociacoes: Array<Negociacao> = [];
+
+    adiciona(negociacao: Negociacao) {
+        this.negociacoes.push(negociacao);
+    }
+
+    lista():Array<Negociacao> {
+        return this.negociacoes;
+    }
+
 }
+
+const negociacoes = new Negociacoes();
+negociacoes.lista().forEach(n => {
+    n.volume;
+})
